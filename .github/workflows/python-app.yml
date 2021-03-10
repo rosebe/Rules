@@ -20,7 +20,10 @@ jobs:
       with:
         python-version: 3.9
     - name: merge
-      run: bash ./merge.sh
+      run: |
+        rm ./Complete.conf
+        wget https://cdn.jsdelivr.net/gh/lhie1/Rules/Shadowrocket/Complete.conf
+        python ./merge.py
     - name: commit
       run: |
         git config --global user.email xiangjianjian@aliyun.com
