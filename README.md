@@ -12,16 +12,20 @@
 
 节点名称需要和[UnblockNeteaseMusic.conf](UnblockNeteaseMusic.conf)里的名称相同。(Thank [Rules-for-UnblockNeteaseMusic](https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic))
 
-### 2. 设置自动更新
+### 2. fork本仓库
 
-#### 2.1 设置GITHUB_TOKEN
+### 3. 设置自动更新
+
+#### 3.1 设置GITHUB_TOKEN
 到个人GitHub Setting > Developer settings > Personal access tokens > Generate new token,设置名字为GITHUB_TOKEN, 然后勾选repo, admin:repo_hook, workflow，最后点击Generate token即可。 (Thank [Github Actions教程](https://cloud.tencent.com/developer/article/1643440))
 
-#### 2.2 运行一次workflow
+#### 3.2 运行一次workflow
 
 点击仓库下面的`Actions` > `Auto update` > `Run workflow` > `Run workflow`
 
-## 完成
+### 4. 使用
+
+把[merge.conf](merge.conf)的raw地址填到shadowrock中即可。
 
 > 纯python小白，写的脚本很简单，欢迎批评指正。
 
