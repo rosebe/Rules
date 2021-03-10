@@ -11,6 +11,7 @@ def get_index(lines):
 
 if __name__ == '__main__':
     parent_path = os.getcwd()
+    print(parent_path)
     file_1 = open(parent_path + '/Complete.conf', mode='r')
     file_2 = open(parent_path + '/UnblockNeteaseMusic.conf', mode='r')
     file_merge = open(parent_path + '/merge.conf', mode='w')
