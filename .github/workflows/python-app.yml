@@ -22,6 +22,7 @@ jobs:
     - name: merge
       run: |
         rm ./Complete.conf
+        cat ./merge.py
         wget https://cdn.jsdelivr.net/gh/lhie1/Rules/Shadowrocket/Complete.conf
         python ./merge.py
     - name: commit
