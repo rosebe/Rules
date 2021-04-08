@@ -11,3 +11,4 @@ git config --global user.email xiangjianjian@aliyun.com
 git config --global user.name Chien
 git add .
 git commit -m "update" -a
+git push

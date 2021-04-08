@@ -33,6 +33,7 @@ jobs:
         git config --global user.name 'GitHub Actions'
         git add .
         git commit -m "update" -a
+        git push
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
