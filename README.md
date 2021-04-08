@@ -2,7 +2,7 @@
 
 ## 简介
 
-自动合并[lhie1/Rules](https://github.com/lhie1/Rules)的代理规则和解锁网易云的规则。适用于Shadowrocket，请结合[nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic)食用。
+自动合并[lhie1/Rules](https://github.com/lhie1/Rules)、[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)的代理规则和解锁网易云的规则。适用于Shadowrocket，请结合[nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic)食用。
 
 ## 食用方法
 
@@ -27,7 +27,29 @@
 
 ### 4. 使用
 
-把[merge.conf](merge.conf)的raw地址填到shadowrock中即可。
+| 规则           | 链接                                                                      | 备注       |
+| -------------- | ------------------------------------------------------------------------- | ---------- |
+| merge-h2y.conf | https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-h2y.conf   | github raw |
+| merge-h2y.conf | https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-h2y.conf              | cdn 加速   |
+| merge-lhie1    | https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf | github raw |
+| merge-lhie1    | https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf            | cdn 加速   |
+
+#### merge-lhie1.conf
+
+[merge-lhie1.conf](merge-lhie1.conf)合并自[lhie1/Rules](https://github.com/lhie1/Rules)。
+
+```
+https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf
+```
+
+
+#### merge-h2y.conf
+
+[merge-h2y.conf](merge-h2y.conf)合并自[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)。
+
+
+
+
 
 > 纯python小白，写的脚本很简单，欢迎批评指正。
 
