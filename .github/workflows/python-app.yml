@@ -22,13 +22,15 @@ jobs:
     - name: merge
       run: |
         rm ./Complete.conf
-        cat ./merge.py
+        rm ./sr_top500_banlist_ad.conf
         wget https://cdn.jsdelivr.net/gh/lhie1/Rules/Shadowrocket/Complete.conf
-        python ./merge.py
+        wget https://h2y.github.io/Shadowrocket-ADBlock-Rules/sr_top500_banlist_ad.conf
+        python ./merge-h2y.py
+        python ./merge-lhie1.py
     - name: commit
       run: |
-        git config --global user.email xiangjianjian@aliyun.com
-        git config --global user.name Chien
+        git config --global user.email actions@github.com
+        git config --global user.name 'GitHub Actions'
         git add .
         git commit -m "update" -a
     - name: Push changes
