@@ -34,22 +34,9 @@
 | merge-lhie1    | https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf | github raw |
 | merge-lhie1    | https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf            | cdn 加速   |
 
-#### merge-lhie1.conf
 
-[merge-lhie1.conf](merge-lhie1.conf)合并自[lhie1/Rules](https://github.com/lhie1/Rules)。
-
-```
-https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf
-```
-
-
-#### merge-h2y.conf
-
-[merge-h2y.conf](merge-h2y.conf)合并自[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)。
-
-
-
-
+> [merge-lhie1.conf](merge-lhie1.conf)合并自[lhie1/Rules](https://github.com/lhie1/Rules)。
+> 
+> [merge-h2y.conf](merge-h2y.conf)合并自[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)。
 
 > 纯python小白，写的脚本很简单，欢迎批评指正。
-
