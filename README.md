@@ -14,18 +14,7 @@
 
 节点名称需要和[UnblockNeteaseMusic.conf](UnblockNeteaseMusic.conf)里的名称相同。(Thank [Rules-for-UnblockNeteaseMusic](https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic))
 
-### 2. fork本仓库
-
-### 3. 设置自动更新
-
-#### 3.1 设置GITHUB_TOKEN
-到个人GitHub Setting > Developer settings > Personal access tokens > Generate new token,设置名字为GITHUB_TOKEN, 然后勾选repo, admin:repo_hook, workflow，最后点击Generate token即可。 (Thank [Github Actions教程](https://cloud.tencent.com/developer/article/1643440))
-
-#### 3.2 运行一次workflow
-
-点击仓库下面的`Actions` > `Auto update` > `Run workflow` > `Run workflow`
-
-### 4. 使用
+### 2. 添加规则链接到 Shadowrocket
 
 | 规则           | 链接                                                                      | 备注       |
 | -------------- | ------------------------------------------------------------------------- | ---------- |
@@ -34,9 +23,28 @@
 | merge-lhie1    | https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf | github raw |
 | merge-lhie1    | https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf            | cdn 加速   |
 
+## 自定义开发
+
+### 1. fork本项目
+
+### 2. 设置自动更新
+
+#### 2.1 设置GITHUB_TOKEN
+到个人GitHub Setting > Developer settings > Personal access tokens > Generate new token,设置名字为GITHUB_TOKEN, 然后勾选repo, admin:repo_hook, workflow，最后点击Generate token即可。 (Thank [Github Actions教程](https://cloud.tencent.com/developer/article/1643440))
+
+#### 2.2 运行一次workflow
+
+点击仓库下面的`Actions` > `Auto update` > `Run workflow` > `Run workflow`
+
+### 3. Do something.
+
 
 > [merge-lhie1.conf](merge-lhie1.conf)合并自[lhie1/Rules](https://github.com/lhie1/Rules)。
 > 
 > [merge-h2y.conf](merge-h2y.conf)合并自[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)。
 
+> 今天刚刚得知[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)项目已停止维护，故本项目中的[merge-h2y.conf](merge-h2y.conf)也只能停更了。 
+>   --- 2021-04-13
+
 > 纯python小白，写的脚本很简单，欢迎批评指正。
+
