@@ -1,4 +1,5 @@
 import os
+import time
 
 
 def get_index(lines):
@@ -19,6 +20,9 @@ if __name__ == '__main__':
     index1 = get_index(lines_1)
     index2 = get_index(lines_2)
 
+    file_merge.write(
+        "# Update by chien at " + time.strftime("%Y-%m-%d %H:%M:%S %Z") + "\n")
+
     for i in range(0, index1):
         file_merge.write(lines_1[i])
 
@@ -27,7 +31,7 @@ if __name__ == '__main__':
 
     for i in range(index1, len(lines_1)):
         file_merge.write(lines_1[i])
-    
+
     print('h2y/sr_top500_banlist_ad.conf merged')
 
     file_1.close()

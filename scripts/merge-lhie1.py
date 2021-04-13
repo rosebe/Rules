@@ -1,4 +1,5 @@
 import os
+import time
 
 
 def get_index(lines):
@@ -18,6 +19,9 @@ if __name__ == '__main__':
     lines_2 = file_2.readlines()
     index1 = get_index(lines_1)
     index2 = get_index(lines_2)
+
+    file_merge.write(
+        "# Update by chien at " + time.strftime("%Y-%m-%d %H:%M:%S %Z") + "\n")
 
     for i in range(0, index1):
         file_merge.write(lines_1[i])
