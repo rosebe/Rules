@@ -15,14 +15,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.9
+    - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
-        python-version: 3.9
+        python-version: 3.8
     - name: merge
       run: |
         rm ./Complete.conf
-        rm ./sr_top500_banlist_ad.conf
         wget https://cdn.jsdelivr.net/gh/lhie1/Rules/Shadowrocket/Complete.conf
         python ./scripts/merge-lhie1.py
     - name: commit
