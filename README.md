@@ -20,12 +20,11 @@
 
 ### 2. 添加规则链接到 Shadowrocket
 
-| 规则           | 链接                                                                      | 备注       |
-| -------------- | ------------------------------------------------------------------------- | ---------- |
-| merge-h2y.conf | https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-h2y.conf   | github raw |
-| merge-h2y.conf | https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-h2y.conf              | cdn 加速   |
-| merge-lhie1    | https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf | github raw |
-| merge-lhie1    | https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf            | cdn 加速   |
+| 规则                | 链接                                                                                                                                                                   | 备注                                                                                                          |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| merge-h2y.conf      | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-h2y.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-h2y.conf)            | 合并自[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) （已停更）          |
+| merge-lhie1.conf    | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf)        | 合并自[lhie1/Rules](https://github.com/lhie1/Rules)                                                           |
+| gfw-ad-neteast.conf | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/gfw-ad-neteast.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gfw-ad-neteast.conf ) | 转换自[anti-AD](https://anti-ad.net)、[Loukky/gfwlist-by-loukky](https://github.com/Loukky/gfwlist-by-loukky) |
 
 ## 自定义开发
 
@@ -41,11 +40,6 @@
 点击仓库下面的`Actions` > `Auto update` > `Run workflow` > `Run workflow`
 
 ### 3. Do something.
-
-
-> [merge-lhie1.conf](merge-lhie1.conf)合并自[lhie1/Rules](https://github.com/lhie1/Rules)。
-> 
-> [merge-h2y.conf](merge-h2y.conf)合并自[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)。
 
 > 今天刚刚得知[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)项目已停止维护，故本项目中的[merge-h2y.conf](merge-h2y.conf)也只能停更了。 
 >   --- 2021-04-13
