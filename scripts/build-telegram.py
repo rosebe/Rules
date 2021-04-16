@@ -15,5 +15,5 @@ if __name__ == '__main__':
     telegram_file = open(os.getcwd() + '/temp/telegram.txt', mode='w', encoding='utf-8')
     for line in telegram:
         if len(line) > 0:
-            telegram_file.write('%s,PROXY\n' % line)
+            telegram_file.write('%s,PROXY,no-resolve\n' % line)
     telegram_file.close()
