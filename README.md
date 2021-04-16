@@ -2,12 +2,11 @@
 
 ## 简介
 
-自动合并**去广告、代理规则和网易云解锁规则**
-，适用于Shadowrocket，网易云解锁请结合[nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic)食用。
+自动合并**去广告、代理规则和网易云解锁规则**，适用于Shadowrocket，网易云解锁请结合[nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic)食用。
 
-去广告、代理规则来自：[lhie1/Rules](https://github.com/lhie1/Rules)、[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)。
+去广告、代理规则合并自：[anti-AD](https://anti-ad.net)、[Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) 。
 
-网易云解锁规则来自：[DesperadoJ/Rules-for-UnblockNeteaseMusic](https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic)。
+网易云解锁规则来自：[DesperadoJ/Rules-for-UnblockNeteaseMusic](https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic) 。
 
 ## 食用方法
 
@@ -45,6 +44,10 @@ Thank [Github Actions教程](https://cloud.tencent.com/developer/article/1643440
 点击仓库下面的`Actions` > `Auto update` > `Run workflow` > `Run workflow`
 
 ### 3. Do something.
+
+## 后续计划
+
+**合并EasyList等AdBlockPlus去广告规则。**
 
 > 今天刚刚得知[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)项目已停止维护，故本项目中的[merge-h2y.conf](merge-h2y.conf)也只能停更了。
 > --- 2021-04-13
