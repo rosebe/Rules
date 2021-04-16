@@ -2,7 +2,8 @@
 
 ## 简介
 
-自动合并**去广告、代理规则和网易云解锁规则**，适用于Shadowrocket，网易云解锁请结合[nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic)食用。
+自动合并**去广告、代理规则和网易云解锁规则**
+，适用于Shadowrocket，网易云解锁请结合[nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic)食用。
 
 去广告、代理规则来自：[lhie1/Rules](https://github.com/lhie1/Rules)、[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)。
 
@@ -16,7 +17,8 @@
 
 ![2021-03-10T13:10:16](https://cdn.jsdelivr.net/gh/xiangsanliu/images@master/uPic/2021-03-10T13:10:16.jpeg)
 
-节点名称需要和[UnblockNeteaseMusic.conf](UnblockNeteaseMusic.conf)里的名称相同。(Thank [Rules-for-UnblockNeteaseMusic](https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic))
+节点名称需要和[UnblockNeteaseMusic.conf](UnblockNeteaseMusic.conf)里的名称相同。(
+Thank [Rules-for-UnblockNeteaseMusic](https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic))
 
 ### 2. 添加规则链接到 Shadowrocket
 
@@ -24,7 +26,7 @@
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | merge-h2y.conf      | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-h2y.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-h2y.conf)            | 合并自[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) （已停更）          |
 | merge-lhie1.conf    | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf)        | 合并自[lhie1/Rules](https://github.com/lhie1/Rules)                                                           |
-| gfw-ad-neteast.conf | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/gfw-ad-neteast.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gfw-ad-netease.conf) | 转换自[anti-AD](https://anti-ad.net)、[Loukky/gfwlist-by-loukky](https://github.com/Loukky/gfwlist-by-loukky) |
+| gfw-ad-neteast.conf | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/gfw-ad-netease.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gfw-ad-netease.conf) | 转换自[anti-AD](https://anti-ad.net)、[Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) |
 
 ## 自定义开发
 
@@ -33,7 +35,10 @@
 ### 2. 设置自动更新
 
 #### 2.1 设置GITHUB_TOKEN
-到个人GitHub Setting > Developer settings > Personal access tokens > Generate new token,设置名字为GITHUB_TOKEN, 然后勾选repo, admin:repo_hook, workflow，最后点击Generate token即可。 (Thank [Github Actions教程](https://cloud.tencent.com/developer/article/1643440))
+
+到个人GitHub Setting > Developer settings > Personal access tokens > Generate new token,设置名字为GITHUB_TOKEN, 然后勾选repo, admin:
+repo_hook, workflow，最后点击Generate token即可。 (
+Thank [Github Actions教程](https://cloud.tencent.com/developer/article/1643440))
 
 #### 2.2 运行一次workflow
 
@@ -41,8 +46,8 @@
 
 ### 3. Do something.
 
-> 今天刚刚得知[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)项目已停止维护，故本项目中的[merge-h2y.conf](merge-h2y.conf)也只能停更了。 
->   --- 2021-04-13
+> 今天刚刚得知[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)项目已停止维护，故本项目中的[merge-h2y.conf](merge-h2y.conf)也只能停更了。
+> --- 2021-04-13
 
 > 纯python小白，写的脚本很简单，欢迎批评指正。
 
