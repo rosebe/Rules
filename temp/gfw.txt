@@ -5824,4 +5824,3 @@ DOMAIN-SUFFIX,zyzc9.com,Proxy
 DOMAIN-SUFFIX,zzcartoon.com,Proxy
 DOMAIN-SUFFIX,zzcloud.me,Proxy
 DOMAIN-SUFFIX,zzux.com,Proxy
-,Proxy

@@ -14,7 +14,8 @@ values = {
     'build_time': time.strftime("%Y-%m-%d %H:%M:%S %Z"),
     'gfw': get_from_file(os.getcwd() + '/temp/gfw.txt'),
     'netease': get_from_file(os.getcwd() + '/temp/netease.txt'),
-    'ad': get_from_file(os.getcwd() + '/temp/ad.txt')
+    'ad': get_from_file(os.getcwd() + '/temp/ad.txt'),
+    'telegram': get_from_file(os.getcwd() + '/temp/telegram.txt')
 }
 
 if __name__ == '__main__':
