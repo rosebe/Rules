@@ -25,7 +25,7 @@ Thank [Rules-for-UnblockNeteaseMusic](https://github.com/DesperadoJ/Rules-for-Un
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | merge-h2y.conf      | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-h2y.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-h2y.conf)            | 合并自[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) （已停更）          |
 | merge-lhie1.conf    | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf)        | 合并自[lhie1/Rules](https://github.com/lhie1/Rules) （每周更新）                                               |
-| gfw-ad-neteast.conf | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/gfw-ad-netease.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gfw-ad-netease.conf) | 转换自[anti-AD](https://anti-ad.net)、[Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) （每日更新） |
+| gfw-ad-netease.conf | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/gfw-ad-netease.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gfw-ad-netease.conf) | 转换自[anti-AD](https://anti-ad.net)、[Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) （每日更新） |
 
 ## 自定义开发
 
