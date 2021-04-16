@@ -14,6 +14,6 @@ if __name__ == '__main__':
     ad = ad.split('\n')
     ad_file = open(os.getcwd() + '/temp/ad.txt', mode='w', encoding='utf-8')
     for line in ad:
-        if not line.startswith('#'):
+        if not line.startswith('#') and len(line) > 0:
             ad_file.write('DOMAIN,%s,REJECT\n' % line)
     ad_file.close()
