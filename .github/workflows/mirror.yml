@@ -16,4 +16,5 @@ jobs:
         dst: gitee/xiangsanliu
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITEE_TOKEN }}
+        static_list: 'Rules'
         force_update: true
