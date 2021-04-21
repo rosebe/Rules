@@ -2,7 +2,12 @@ on:
   push:
     # delete this item if you don't want to trigger this workflow when modify this repo
     branches: main
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # UTC 20:00 -> CST (China) 4:00, see https://datetime360.com/cn/utc-cst-china-time/
+    - cron: '0 1 * * *'
   workflow_dispatch:
+  
 name: Mirror GitHub Auto Queried Repos to Gitee
 jobs:
   run:
@@ -18,3 +23,4 @@ jobs:
         dst_token: ${{ secrets.GITEE_TOKEN }}
         static_list: 'Rules'
         force_update: true
+        timeout: '1h'
