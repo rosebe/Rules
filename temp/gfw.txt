@@ -1988,6 +1988,7 @@ DOMAIN-SUFFIX,geti2p.net,Proxy
 DOMAIN-SUFFIX,getiton.com,Proxy
 DOMAIN-SUFFIX,getjetso.com,Proxy
 DOMAIN-SUFFIX,getlantern.org,Proxy
+DOMAIN-SUFFIX,getmalus.com,Proxy
 DOMAIN-SUFFIX,getmdl.io,Proxy
 DOMAIN-SUFFIX,getoutline.org,Proxy
 DOMAIN-SUFFIX,getsocialscope.com,Proxy
@@ -3840,6 +3841,7 @@ DOMAIN-SUFFIX,ourtv.hk,Proxy
 DOMAIN-SUFFIX,overdaily.org,Proxy
 DOMAIN-SUFFIX,overplay.net,Proxy
 DOMAIN-SUFFIX,oversea.istarshine.com,Proxy
+DOMAIN-SUFFIX,ovpn.com,Proxy
 DOMAIN-SUFFIX,ow.ly,Proxy
 DOMAIN-SUFFIX,owl.li,Proxy
 DOMAIN-SUFFIX,owltail.com,Proxy
@@ -3986,6 +3988,7 @@ DOMAIN-SUFFIX,player.fm,Proxy
 DOMAIN-SUFFIX,playno1.com,Proxy
 DOMAIN-SUFFIX,playpcesor.com,Proxy
 DOMAIN-SUFFIX,plays.com.tw,Proxy
+DOMAIN-SUFFIX,plexvpn.pro,Proxy
 DOMAIN-SUFFIX,plm.org.hk,Proxy
 DOMAIN-SUFFIX,plunder.com,Proxy
 DOMAIN-SUFFIX,plurk.com,Proxy
