@@ -164,6 +164,7 @@ DOMAIN-SUFFIX,activpn.com,Proxy
 DOMAIN-SUFFIX,aculo.us,Proxy
 DOMAIN-SUFFIX,adcex.com,Proxy
 DOMAIN-SUFFIX,addictedtocoffee.de,Proxy
+DOMAIN-SUFFIX,addyoutube.com,Proxy
 DOMAIN-SUFFIX,adelaidebbs.com,Proxy
 DOMAIN-SUFFIX,admin.recaptcha.net,Proxy
 DOMAIN-SUFFIX,admob.com,Proxy
@@ -260,6 +261,7 @@ DOMAIN-SUFFIX,amnyemachen.org,Proxy
 DOMAIN-SUFFIX,amoiist.com,Proxy
 DOMAIN-SUFFIX,ampproject.org,Proxy
 DOMAIN-SUFFIX,amtb-taipei.org,Proxy
+DOMAIN-SUFFIX,anchor.fm,Proxy
 DOMAIN-SUFFIX,anchorfree.com,Proxy
 DOMAIN-SUFFIX,ancsconf.org,Proxy
 DOMAIN-SUFFIX,andfaraway.net,Proxy
@@ -275,7 +277,6 @@ DOMAIN-SUFFIX,angelfire.com,Proxy
 DOMAIN-SUFFIX,angola.org,Proxy
 DOMAIN-SUFFIX,angularjs.org,Proxy
 DOMAIN-SUFFIX,animecrazy.net,Proxy
-DOMAIN-SUFFIX,animeshippuuden.com,Proxy
 DOMAIN-SUFFIX,aniscartujo.com,Proxy
 DOMAIN-SUFFIX,annatam.com,Proxy
 DOMAIN-SUFFIX,anobii.com,Proxy
@@ -1277,6 +1278,7 @@ DOMAIN-SUFFIX,ddns.name,Proxy
 DOMAIN-SUFFIX,ddns.net,Proxy
 DOMAIN-SUFFIX,ddns.us,Proxy
 DOMAIN-SUFFIX,de-sci.org,Proxy
+DOMAIN-SUFFIX,deadline.com,Proxy
 DOMAIN-SUFFIX,deaftone.com,Proxy
 DOMAIN-SUFFIX,debug.com,Proxy
 DOMAIN-SUFFIX,deck.ly,Proxy
@@ -3048,6 +3050,7 @@ DOMAIN-SUFFIX,kyoyue.com,Proxy
 DOMAIN-SUFFIX,kyzyhello.com,Proxy
 DOMAIN-SUFFIX,kzeng.info,Proxy
 DOMAIN-SUFFIX,la-forum.org,Proxy
+DOMAIN-SUFFIX,lab.skk.moe,Proxy
 DOMAIN-SUFFIX,labiennale.org,Proxy
 DOMAIN-SUFFIX,ladbrokes.com,Proxy
 DOMAIN-SUFFIX,lagranepoca.com,Proxy
@@ -3854,7 +3857,6 @@ DOMAIN-SUFFIX,ozxw.com,Proxy
 DOMAIN-SUFFIX,ozyoyo.com,Proxy
 DOMAIN-SUFFIX,pachosting.com,Proxy
 DOMAIN-SUFFIX,pacificpoker.com,Proxy
-DOMAIN-SUFFIX,packages.debian.org,Proxy
 DOMAIN-SUFFIX,packetix.net,Proxy
 DOMAIN-SUFFIX,pacopacomama.com,Proxy
 DOMAIN-SUFFIX,padmanet.com,Proxy
@@ -4577,6 +4579,7 @@ DOMAIN-SUFFIX,soup.io,Proxy
 DOMAIN-SUFFIX,soupofmedia.com,Proxy
 DOMAIN-SUFFIX,sourceforge.net,Proxy
 DOMAIN-SUFFIX,sourcewadio.com,Proxy
+DOMAIN-SUFFIX,south-plus.org,Proxy
 DOMAIN-SUFFIX,southnews.com.tw,Proxy
 DOMAIN-SUFFIX,southpark.cc.com,Proxy
 DOMAIN-SUFFIX,sowers.org.hk,Proxy
