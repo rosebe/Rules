@@ -3569,6 +3569,7 @@ DOMAIN-SUFFIX,neo-miracle.com,Proxy
 DOMAIN-SUFFIX,neowin.net,Proxy
 DOMAIN-SUFFIX,nepusoku.com,Proxy
 DOMAIN-SUFFIX,net-fits.pro,Proxy
+DOMAIN-SUFFIX,netalert.me,Proxy
 DOMAIN-SUFFIX,netbirds.com,Proxy
 DOMAIN-SUFFIX,netcolony.com,Proxy
 DOMAIN-SUFFIX,netflav.com,Proxy
