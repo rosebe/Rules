@@ -5366,6 +5366,7 @@ DOMAIN-SUFFIX,v2fly.org,Proxy
 DOMAIN-SUFFIX,v2ray.com,Proxy
 DOMAIN-SUFFIX,v2raycn.com,Proxy
 DOMAIN-SUFFIX,v2raytech.com,Proxy
+DOMAIN-SUFFIX,valeursactuelles.com,Proxy
 DOMAIN-SUFFIX,van001.com,Proxy
 DOMAIN-SUFFIX,van698.com,Proxy
 DOMAIN-SUFFIX,vanemu.cn,Proxy
