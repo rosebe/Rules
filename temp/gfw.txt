@@ -512,6 +512,7 @@ DOMAIN-SUFFIX,belamionline.com,Proxy
 DOMAIN-SUFFIX,bell.wiki,Proxy
 DOMAIN-SUFFIX,bemywife.cc,Proxy
 DOMAIN-SUFFIX,beric.me,Proxy
+DOMAIN-SUFFIX,berlinerbericht.de,Proxy
 DOMAIN-SUFFIX,berlintwitterwall.com,Proxy
 DOMAIN-SUFFIX,berm.co.nz,Proxy
 DOMAIN-SUFFIX,bestforchina.org,Proxy
