@@ -2592,6 +2592,7 @@ DOMAIN-SUFFIX,hopedialogue.org,Proxy
 DOMAIN-SUFFIX,hopto.org,Proxy
 DOMAIN-SUFFIX,hornygamer.com,Proxy
 DOMAIN-SUFFIX,hornytrip.com,Proxy
+DOMAIN-SUFFIX,hostloc.com,Proxy
 DOMAIN-SUFFIX,hotair.com,Proxy
 DOMAIN-SUFFIX,hotav.tv,Proxy
 DOMAIN-SUFFIX,hotels.cn,Proxy
