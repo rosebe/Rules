@@ -19918,6 +19918,8 @@ DOMAIN-SUFFIX,policy.jd.com,REJECT
 DOMAIN-SUFFIX,stat.m.jd.com,REJECT
 DOMAIN-SUFFIX,u-x.jd.com,REJECT
 DOMAIN-SUFFIX,mercury.jd.com,REJECT
+DOMAIN-SUFFIX,blackhole.m.jd.com,REJECT
+DOMAIN-SUFFIX,firevent.jd.com,REJECT
 DOMAIN-SUFFIX,pic.jdbbs.com,REJECT
 DOMAIN-SUFFIX,rmw.jdburl.com,REJECT
 DOMAIN-SUFFIX,dyb.jdcbuy.com,REJECT
@@ -23865,7 +23867,7 @@ DOMAIN-SUFFIX,i1.services.social.microsoft.com,REJECT
 DOMAIN-SUFFIX,ieonline.microsoft.com,REJECT
 DOMAIN-SUFFIX,ieonlinews.microsoft.com,REJECT
 DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com,REJECT
-DOMAIN-SUFFIX,events.data.microsoft.com,REJECT
+DOMAIN-SUFFIX,nw-umwatson.events.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,redir.metaservices.microsoft.com,REJECT
 DOMAIN-SUFFIX,settings-sandbox.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,settings-win-ppe.data.microsoft.com,REJECT
@@ -23876,6 +23878,7 @@ DOMAIN-SUFFIX,statsfe1.ws.microsoft.com,REJECT
 DOMAIN-SUFFIX,statsfe2.ws.microsoft.com,REJECT
 DOMAIN-SUFFIX,telemetry.urs.microsoft.com,REJECT
 DOMAIN-SUFFIX,teredo.ipv6.microsoft.com,REJECT
+DOMAIN-SUFFIX,umwatsonc.events.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,vortex-sandbox.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,vortex-win-sandbox.data.microsoft.com,REJECT
 DOMAIN-SUFFIX,vortex.data.glbdns2.microsoft.com,REJECT
@@ -35279,10 +35282,15 @@ DOMAIN-SUFFIX,ea.telecommandeonline.com,REJECT
 DOMAIN-SUFFIX,stats.teledyski.info,REJECT
 DOMAIN-SUFFIX,omnistats.teleflora.com,REJECT
 DOMAIN-SUFFIX,stats.sec.telefonica.com,REJECT
+DOMAIN-SUFFIX,telegram-cn.org,REJECT
+DOMAIN-SUFFIX,telegram-vip.com,REJECT
+DOMAIN-SUFFIX,telegramcn.org,REJECT
 DOMAIN-SUFFIX,telegramspun.com,REJECT
+DOMAIN-SUFFIX,telegramsvip.com,REJECT
 DOMAIN-SUFFIX,analytics.eip.telegraph.co.uk,REJECT
 DOMAIN-SUFFIX,gcpdata.telegraph.co.uk,REJECT
 DOMAIN-SUFFIX,metrics.telegraph.co.uk,REJECT
+DOMAIN-SUFFIX,telegrcn.org,REJECT
 DOMAIN-SUFFIX,pix.telekom-dienste.de,REJECT
 DOMAIN-SUFFIX,web-track.telekom-dienste.de,REJECT
 DOMAIN-SUFFIX,pix.telekom.de,REJECT
