@@ -3295,6 +3295,7 @@ DOMAIN-SUFFIX,meetup.com,Proxy
 DOMAIN-SUFFIX,mefeedia.com,Proxy
 DOMAIN-SUFFIX,mefound.com,Proxy
 DOMAIN-SUFFIX,mega.co.nz,Proxy
+DOMAIN-SUFFIX,mega.io,Proxy
 DOMAIN-SUFFIX,mega.nz,Proxy
 DOMAIN-SUFFIX,megaproxy.com,Proxy
 DOMAIN-SUFFIX,megarotic.com,Proxy
