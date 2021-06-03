@@ -23,7 +23,8 @@ jobs:
       run: |
         rm ./Complete.conf
         wget https://cdn.jsdelivr.net/gh/lhie1/Rules/Shadowrocket/Complete.conf
-        python ./scripts/merge-lhie1.py
+        python3 ./scripts/merge-lhie1.py
+        python3 ./scripts/build-node.py
     - name: commit
       run: |
         git config --global user.email actions@github.com
