@@ -25,9 +25,7 @@
 > 
 > 也可以使用我从DesperadoJ大佬那转换好的节点：[node.txt](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/node.txt)
 
-### 2. 添加规则链接到 Shadowrocket
-
-将[规则地址](#规则地址)填入 Shadowrocket
+### 2. 将[规则地址](#规则地址)填入 Shadowrocket
 
 ## 自定义开发
 
