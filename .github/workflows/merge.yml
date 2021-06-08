@@ -21,6 +21,7 @@ jobs:
         python-version: 3.8
     - name: merge
       run: |
+        pip install requests
         rm ./Complete.conf
         wget https://cdn.jsdelivr.net/gh/lhie1/Rules/Shadowrocket/Complete.conf
         python3 ./scripts/merge-lhie1.py
