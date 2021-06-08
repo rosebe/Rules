@@ -12,7 +12,7 @@ def get_from_file(path):
 
 values = {
     'build_time': time.strftime("%Y-%m-%d %H:%M:%S %Z"),
-    'gfw': get_from_file(os.getcwd() + '/temp/gfw.txt'),
+    'proxy': get_from_file(os.getcwd() + '/temp/proxy.txt'),
     'direct': get_from_file(os.getcwd() + '/temp/direct.txt'),
     'netease': get_from_file(os.getcwd() + '/temp/netease.txt'),
     'ad': get_from_file(os.getcwd() + '/temp/ad.txt'),
@@ -32,8 +32,10 @@ def gen_file(name):
     output_file.close()
 
 file_names = [
-    'gfw-ad-netease',
-    'proxy-ad-netease'
+    'black-ad-netease',
+    'white-ad-netease',
+    'black-ad',
+    'white-ad',
 ]
 
 if __name__ == '__main__':

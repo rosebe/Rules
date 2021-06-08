@@ -2,11 +2,7 @@
 
 ## 简介
 
-自动合并**去广告、代理规则和网易云解锁规则**，适用于Shadowrocket，网易云解锁请结合[nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic)食用。
-
-去广告、代理规则合并自：[anti-AD](https://anti-ad.net)、[Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) 。
-
-网易云解锁规则来自：[DesperadoJ/Rules-for-UnblockNeteaseMusic](https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic) 。
+定时自动合并**广告过滤、代理规则和网易云解锁规则**，适用于Shadowrocket。网易云解锁请结合[nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic)食用。
 
 ## 食用方法
 
@@ -20,8 +16,6 @@
 
 > ❗️注意节点名称需要和[UnblockNeteaseMusic.conf](UnblockNeteaseMusic.conf)里的名称相同。
 
-(Thank [Rules-for-UnblockNeteaseMusic](https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic))
-
 #### 使用DesperadoJ大佬的节点 
 
 大佬的仓库地址：[DesperadoJRules-for-UnblockNeteaseMusic](https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic)，在里面找`Shadowrocket/shadowrocket-server.txt`
@@ -31,15 +25,56 @@
 > 
 > 也可以使用我从DesperadoJ大佬那转换好的节点：[node.txt](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/node.txt)
 
-
-
 ### 2. 添加规则链接到 Shadowrocket
 
-| 规则                | 链接                                                                                                                                                                  | 备注                                                                                                                       |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| merge-h2y.conf      | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-h2y.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-h2y.conf)           | 合并自[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules) （已停更）                       |
-| merge-lhie1.conf    | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf)       | 合并自[lhie1/Rules](https://github.com/lhie1/Rules) （每周检查一次更新）                                                           |
-| gfw-ad-netease.conf | [Raw地址](https://raw.githubusercontent.com/xiangsanliu/Rules/main/gfw-ad-netease.conf)、[CDN地址](https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gfw-ad-netease.conf) | 转换自[anti-AD](https://anti-ad.net)、[Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules) （每日更新） |
+#### black-ad-netease.conf
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad-netease.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad-netease.conf
+
+* 代理：被墙的网址
+* 直连：其他网址
+* 广告过滤 + 音乐解锁
+
+#### white-ad-netease.conf
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/white-ad-netease.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/white-ad-netease.conf
+
+* 直连：可以直连的网址
+* 代理：其他网址
+* 广告过滤 + 音乐解锁
+
+#### black-ad-netease.conf
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad.conf
+
+* 代理：被墙的网址
+* 直连：其他网址
+* 广告过滤
+
+#### white-ad.conf
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad.conf
+
+* 直连：可以直连的网址
+* 代理：其他网址
+* 广告过滤
+
+#### merge-lhie1.conf
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf
+
+* 合并自 [lhie1/Rules](https://github.com/lhie1/Rules)
+
 
 ## 自定义开发
 
@@ -61,10 +96,15 @@ Thank [Github Actions教程](https://cloud.tencent.com/developer/article/1643440
 
 ## 感谢
 
+广告过滤、直连代理、音乐解锁规则转换自：
+
 - [anti-AD](https://anti-ad.net)
 - [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules)
 - [DesperadoJ/Rules-for-UnblockNeteaseMusic](https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic)
 - [lhie1/Rules](https://github.com/lhie1/Rules)
+
+规则转换代码参考：
+
 - [h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)
 
 > 今天刚刚得知[h2y/Shadowrocket-ADBlock-Rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)项目已停止维护，故本项目中的[merge-h2y.conf](merge-h2y.conf)也只能停更了。
