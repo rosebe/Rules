@@ -67,7 +67,7 @@ CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/white-ad-netease.c
 * 代理：其他网址
 * 广告过滤 + 音乐解锁
 
-### black-ad-netease.conf
+### black-ad.conf
 
 Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad.conf
 
@@ -79,9 +79,9 @@ CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad.conf
 
 ### white-ad.conf
 
-Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad.conf
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/white-ad.conf
 
-CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad.conf
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/white-ad.conf
 
 * 直连：可以直连的网址
 * 代理：其他网址
