@@ -12,6 +12,7 @@ def get_from_file(path):
 
 values = {
     'build_time': time.strftime("%Y-%m-%d %H:%M:%S %Z"),
+    'general': get_from_file(os.getcwd() + '/temp/general.txt'),
     'proxy': get_from_file(os.getcwd() + '/temp/proxy.txt'),
     'direct': get_from_file(os.getcwd() + '/temp/direct.txt'),
     'netease': get_from_file(os.getcwd() + '/temp/netease.txt'),
