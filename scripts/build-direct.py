@@ -14,7 +14,7 @@ direct_urls.append('https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release
 direct_urls.append('https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/private.txt')
 direct_urls.append('https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/apple.txt')
 direct_urls.append('https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/icloud.txt')
-direct_urls.append('https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/cncidr.txt')
+# direct_urls.append('https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/cncidr.txt')
 
 
 

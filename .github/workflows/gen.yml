@@ -25,7 +25,9 @@ jobs:
         python3 ./scripts/build-gfwlist.py
         python3 ./scripts/build-ad.py
         python3 ./scripts/build-telegram.py
+        python3 ./scripts/build-direct.py
         python3 ./scripts/gen-gfw-ad-netease.py
+        python3 ./scripts/gen-final.py
     - name: Commit
       run: |
         git config --global user.email actions@github.com

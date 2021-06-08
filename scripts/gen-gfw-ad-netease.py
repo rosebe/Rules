@@ -20,7 +20,7 @@ values = {
 }
 
 if __name__ == '__main__':
-    template_file = open(os.getcwd() + '/template/merge-gfw-template.conf', mode='r', encoding='utf-8')
+    template_file = open(os.getcwd() + '/template/gfw-ad-netease-template.conf', mode='r', encoding='utf-8')
     template = template_file.read()
     output_file = open(os.getcwd() + '/gfw-ad-netease.conf', mode='w', encoding='utf-8')
     marks = re.findall(r'{{(.+)}}', template)
