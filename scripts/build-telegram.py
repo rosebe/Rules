@@ -20,3 +20,4 @@ if __name__ == '__main__':
             telegram_snippet.write('%s\n' % line.replace('IP-CIDR6', 'IP-CIDR'))
     telegram_file.close()
     telegram_snippet.close()
+    print('The telegram rule has been built successfully! Rule size: {}.'.format(len(telegram)))

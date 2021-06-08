@@ -17,3 +17,4 @@ if __name__ == '__main__':
         if not line.startswith('#') and len(line) > 0:
             ad_file.write('%s,REJECT\n' % line)
     ad_file.close()
+    print('The ad rule has been built successfully! Rule size: {}.'.format(len(reject)))
