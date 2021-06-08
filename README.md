@@ -2,7 +2,7 @@
 
 ## 简介
 
-定时自动合并**广告过滤、代理规则和网易云解锁规则**，适用于Shadowrocket。网易云解锁请结合[nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic)食用。
+**广告过滤、代理规则和网易云解锁规则**，利用Github Actions定时自动合并，适用于Shadowrocket。网易云解锁请结合[nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic)食用。
 
 ## 食用方法
 
@@ -27,54 +27,7 @@
 
 ### 2. 添加规则链接到 Shadowrocket
 
-#### black-ad-netease.conf
-
-Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad-netease.conf
-
-CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad-netease.conf
-
-* 代理：被墙的网址
-* 直连：其他网址
-* 广告过滤 + 音乐解锁
-
-#### white-ad-netease.conf
-
-Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/white-ad-netease.conf
-
-CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/white-ad-netease.conf
-
-* 直连：可以直连的网址
-* 代理：其他网址
-* 广告过滤 + 音乐解锁
-
-#### black-ad-netease.conf
-
-Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad.conf
-
-CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad.conf
-
-* 代理：被墙的网址
-* 直连：其他网址
-* 广告过滤
-
-#### white-ad.conf
-
-Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad.conf
-
-CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad.conf
-
-* 直连：可以直连的网址
-* 代理：其他网址
-* 广告过滤
-
-#### merge-lhie1.conf
-
-Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf
-
-CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf
-
-* 合并自 [lhie1/Rules](https://github.com/lhie1/Rules)
-
+将[规则地址](#规则地址)填入 Shadowrocket
 
 ## 自定义开发
 
@@ -93,6 +46,56 @@ Thank [Github Actions教程](https://cloud.tencent.com/developer/article/1643440
 点击仓库下面的`Actions` > `Auto update` > `Run workflow` > `Run workflow`
 
 ### 3. Do something.
+
+## 规则地址
+
+### black-ad-netease.conf
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad-netease.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad-netease.conf
+
+* 代理：被墙的网址
+* 直连：其他网址
+* 广告过滤 + 音乐解锁
+
+### white-ad-netease.conf
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/white-ad-netease.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/white-ad-netease.conf
+
+* 直连：可以直连的网址
+* 代理：其他网址
+* 广告过滤 + 音乐解锁
+
+### black-ad-netease.conf
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad.conf
+
+* 代理：被墙的网址
+* 直连：其他网址
+* 广告过滤
+
+### white-ad.conf
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad.conf
+
+* 直连：可以直连的网址
+* 代理：其他网址
+* 广告过滤
+
+### merge-lhie1.conf
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf
+
+* 合并自 [lhie1/Rules](https://github.com/lhie1/Rules)
 
 ## 感谢
 
