@@ -93,7 +93,7 @@ Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1
 
 CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf
 
-* 合并自 [lhie1/Rules](https://github.com/lhie1/Rules)
+* 合并自 [lhie1/Rules](https://github.com/lhie1/Rules/tree/master)
 
 ## 感谢
 
@@ -102,7 +102,7 @@ CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf
 - [anti-AD](https://anti-ad.net)
 - [Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules)
 - [DesperadoJ/Rules-for-UnblockNeteaseMusic](https://github.com/DesperadoJ/Rules-for-UnblockNeteaseMusic)
-- [lhie1/Rules](https://github.com/lhie1/Rules)
+- [lhie1/Rules](https://github.com/lhie1/Rules/tree/master)
 
 规则转换代码参考：
 
