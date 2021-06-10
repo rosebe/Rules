@@ -10,7 +10,7 @@ def get_proxy(url):
 
 
 proxy_urls = []
-proxy_urls.append('https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/proxy.txt')
+# proxy_urls.append('https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/proxy.txt')
 proxy_urls.append('https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/gfw.txt')
 
 if __name__ == '__main__':
