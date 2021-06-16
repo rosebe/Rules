@@ -5058,7 +5058,9 @@ DOMAIN-SUFFIX,tor.updatestar.com,PROXY
 DOMAIN-SUFFIX,tora.to,PROXY
 DOMAIN-SUFFIX,torcn.com,PROXY
 DOMAIN-SUFFIX,torguard.net,PROXY
+DOMAIN-SUFFIX,torlock.com,PROXY
 DOMAIN-SUFFIX,torproject.org,PROXY
+DOMAIN-SUFFIX,torrentkitty.tv,PROXY
 DOMAIN-SUFFIX,torrentprivacy.com,PROXY
 DOMAIN-SUFFIX,torrentproject.se,PROXY
 DOMAIN-SUFFIX,torrenty.org,PROXY
