@@ -3632,6 +3632,7 @@ DOMAIN-SUFFIX,nexitally.com,PROXY
 DOMAIN-SUFFIX,nexitcore.com,PROXY
 DOMAIN-SUFFIX,nexon.com,PROXY
 DOMAIN-SUFFIX,next11.co.jp,PROXY
+DOMAIN-SUFFIX,nextdigital.com.hk,PROXY
 DOMAIN-SUFFIX,nextmag.com.tw,PROXY
 DOMAIN-SUFFIX,nextmedia.com,PROXY
 DOMAIN-SUFFIX,nexton-net.jp,PROXY
