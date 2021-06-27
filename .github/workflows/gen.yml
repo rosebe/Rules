@@ -26,6 +26,7 @@ jobs:
         python3 ./scripts/build-telegram.py
         python3 ./scripts/build-direct.py
         python3 ./scripts/build-proxy.py
+        python3 ./scripts/build-netease.py
         python3 ./scripts/gen-final.py
     - name: Commit
       run: |
