@@ -1,6 +1,6 @@
 import os
 import time
-
+import requests
 
 def get_index(lines):
     index = 0
@@ -9,39 +9,32 @@ def get_index(lines):
         if line == '[Rule]\n':
             return index
 
+def get_lhie1():
+    res = requests.get('https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Shadowrocket/Complete.conf')
+    if res.status_code != 200:
+        raise Exception('Connect error')
+    return res.text.split('\n')
+
 
 if __name__ == '__main__':
     parent_path = os.getcwd()
-    file_1 = open(parent_path + '/Complete.conf', mode='r')
-    file_2 = open(parent_path + '/UnblockNeteaseMusic.conf', mode='r')
+    file_netease = open(parent_path + '/temp/netease.txt', mode='r')
     file_merge = open(parent_path + '/merge-lhie1.conf', mode='w')
-    lines_1 = file_1.readlines()
-    lines_2 = file_2.readlines()
-    index1 = get_index(lines_1)
-    index2 = get_index(lines_2)
+    lines_1 = get_lhie1()
+    lines_2 = file_netease.readlines()
 
     file_merge.write(
-        "# Update by chien at " + time.strftime("%Y-%m-%d %H:%M:%S %Z") + "\n")
+        "# Update at " + time.strftime("%Y-%m-%d %H:%M:%S %Z") + "\n")
 
-    for i in range(0, index1):
-        file_merge.write(lines_1[i])
-
-    for i in range(index2, len(lines_2)):
-        file_merge.write(lines_2[i])
-
-    flag_1 = False
-    for i in range(index1, len(lines_1)):
-        if (lines_1[i] == '# > Netease Music\n'):
-            flag_1 = True
-
-        if (flag_1 and len(lines_1[i]) <= 1):
-            flag_1 = False
-
-        if (not flag_1):
-            file_merge.write(lines_1[i])
+    for rule_1 in lines_1:
+        if rule_1.startswith('GEOIP'):
+            file_merge.write('# > Netease Music Unblock\n')
+            for rule_2 in lines_2:
+                file_merge.write(rule_2)
+            file_merge.write('\n')
+        file_merge.write(rule_1 + '\n')
 
     print('lhie1/Complete.conf merged')
 
-    file_1.close()
-    file_2.close()
+    file_netease.close()
     file_merge.close()
