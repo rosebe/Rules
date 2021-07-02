@@ -34,9 +34,9 @@ def gen_file(name):
 
 file_names = [
     'black-ad-netease',
+    'black-netease',
     'white-ad-netease',
-    'black-ad',
-    'white-ad',
+    'white-netease',
 ]
 
 if __name__ == '__main__':
