@@ -47,6 +47,36 @@ Thank [Github Actions教程](https://cloud.tencent.com/developer/article/1643440
 
 ## 规则地址
 
+### black-netease.conf (🌟推荐使用)
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-netease.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-netease.conf
+
+* 代理：被墙的网址
+* 直连：其他网址
+* 音乐解锁
+
+### merge-lhie1.conf (🌟推荐使用)
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf
+
+* 合并自 [lhie1/Rules](https://github.com/lhie1/Rules/tree/master)
+* 音乐解锁
+
+### white-netease.conf
+
+Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/white-netease.conf
+
+CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/white-netease.conf
+
+* 直连：可以直连的网址
+* 代理：其他网址
+* 音乐解锁
+* 规则比较庞大，可能影响效率
+
 ### black-ad-netease.conf
 
 Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad-netease.conf
@@ -56,6 +86,7 @@ CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad-netease.c
 * 代理：被墙的网址
 * 直连：其他网址
 * 广告过滤 + 音乐解锁
+* 规则比较庞大，可能影响效率
 
 ### white-ad-netease.conf
 
@@ -66,34 +97,13 @@ CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/white-ad-netease.c
 * 直连：可以直连的网址
 * 代理：其他网址
 * 广告过滤 + 音乐解锁
+* 规则比较庞大，可能影响效率
 
-### black-ad.conf
+## 关于广告屏蔽
 
-Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/black-ad.conf
+这里比较认同[SS-Rule-Snippet#关于广告屏蔽的观点](https://github.com/Hackl0us/SS-Rule-Snippet#%E5%85%B3%E4%BA%8E%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD)，专门的事交给专业的人去做。
 
-CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/black-ad.conf
-
-* 代理：被墙的网址
-* 直连：其他网址
-* 广告过滤
-
-### white-ad.conf
-
-Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/gen/white-ad.conf
-
-CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/gen/white-ad.conf
-
-* 直连：可以直连的网址
-* 代理：其他网址
-* 广告过滤
-
-### merge-lhie1.conf
-
-Raw地址：https://raw.githubusercontent.com/xiangsanliu/Rules/main/merge-lhie1.conf
-
-CDN地址：https://cdn.jsdelivr.net/gh/xiangsanliu/Rules/merge-lhie1.conf
-
-* 合并自 [lhie1/Rules](https://github.com/lhie1/Rules/tree/master)
+本项目每天都会自动从其他大佬同步广告过滤，但是规则太庞大了，在我编辑的现在(2021.06.02)就有4w+条去广告规则，再加上小火箭这款工具每次匹配是会索引整个规则文件的，这会降低运行效率，反而得不偿失。
 
 ## 感谢
 
