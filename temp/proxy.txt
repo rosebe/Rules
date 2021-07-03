@@ -1998,6 +1998,7 @@ DOMAIN-SUFFIX,getmdl.io,PROXY
 DOMAIN-SUFFIX,getoutline.org,PROXY
 DOMAIN-SUFFIX,getsocialscope.com,PROXY
 DOMAIN-SUFFIX,getsync.com,PROXY
+DOMAIN-SUFFIX,gettr.com,PROXY
 DOMAIN-SUFFIX,gettrials.com,PROXY
 DOMAIN-SUFFIX,gettyimages.com,PROXY
 DOMAIN-SUFFIX,getuploader.com,PROXY
