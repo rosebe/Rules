@@ -18,13 +18,6 @@ def get_lhie1():
         raise Exception('Connect error')
     return res.text.split('\n')
 
-def write_ad_plus(file):
-    file.write('# > ad plus\n')
-    file.write('RULE-SET,https://raw.fastgit.org/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list,REJECT\n')
-    file.write('DOMAIN-SET,https://raw.fastgit.org/DivineEngine/Profiles/master/Surge/Ruleset/Guard/AdvertisingPlus.list,REJECT\n')
-    file.write('RULE-SET,https://raw.fastgit.org/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list,REJECT\n\n')
-
-
 if __name__ == '__main__':
     parent_path = os.getcwd()
     file_netease = open(parent_path + '/temp/netease.txt', mode='r')
@@ -47,7 +40,6 @@ if __name__ == '__main__':
             for rule_2 in lines_2:
                 file_merge.write(rule_2)
             file_merge.write('\n')
-            write_ad_plus(file=file_merge)
         if flag:
             file_merge.write(rule_1 + '\n')
 
