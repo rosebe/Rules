@@ -1288,6 +1288,7 @@ DOMAIN-SUFFIX,887251.com,REJECT
 DOMAIN-SUFFIX,887591.com,REJECT
 DOMAIN-SUFFIX,88818122.cn,REJECT
 DOMAIN-SUFFIX,8881919.cc,REJECT
+DOMAIN-SUFFIX,88888888vip.top,REJECT
 DOMAIN-SUFFIX,888b.com,REJECT
 DOMAIN-SUFFIX,888b.in,REJECT
 DOMAIN-SUFFIX,888casino.com,REJECT
@@ -9879,6 +9880,8 @@ DOMAIN-SUFFIX,bookclub-offer.com,REJECT
 DOMAIN-SUFFIX,bookingfreeze.com,REJECT
 DOMAIN-SUFFIX,bookpdf.services,REJECT
 DOMAIN-SUFFIX,bookproplus.com,REJECT
+DOMAIN-SUFFIX,books-analytics-events.apple.com,REJECT
+DOMAIN-SUFFIX,books-analytics-events.news.apple-dns.net,REJECT
 DOMAIN-SUFFIX,books-media-edu-premiumblvd.com,REJECT
 DOMAIN-SUFFIX,books-media-edu-rewardempire.com,REJECT
 DOMAIN-SUFFIX,books-media-rewardpath.com,REJECT
@@ -9954,6 +9957,7 @@ DOMAIN-SUFFIX,bouncepilot.com,REJECT
 DOMAIN-SUFFIX,bouncex.com,REJECT
 DOMAIN-SUFFIX,bouncyproperty.com,REJECT
 DOMAIN-SUFFIX,bournemouthecho-gb.bournemouthecho.co.uk,REJECT
+DOMAIN-SUFFIX,boustahe.com,REJECT
 DOMAIN-SUFFIX,bowcompetitionbesides.com,REJECT
 DOMAIN-SUFFIX,bowei666.xyz,REJECT
 DOMAIN-SUFFIX,boweineng.cn,REJECT
@@ -13323,6 +13327,7 @@ DOMAIN-SUFFIX,crashfootwork.com,REJECT
 DOMAIN-SUFFIX,crashlytics.com,REJECT
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com,REJECT
 DOMAIN-SUFFIX,crateac.com,REJECT
+DOMAIN-SUFFIX,cratecamera.com,REJECT
 DOMAIN-SUFFIX,cratertadcite.com,REJECT
 DOMAIN-SUFFIX,crawfordstevehypothetically.com,REJECT
 DOMAIN-SUFFIX,crawlability.com,REJECT
@@ -17096,6 +17101,7 @@ DOMAIN-SUFFIX,events.sk.ht,REJECT
 DOMAIN-SUFFIX,events.splash-screen.net,REJECT
 DOMAIN-SUFFIX,events.split.io,REJECT
 DOMAIN-SUFFIX,events.streamrail.net,REJECT
+DOMAIN-SUFFIX,events.textme-app.com,REJECT
 DOMAIN-SUFFIX,events.tubecup.org,REJECT
 DOMAIN-SUFFIX,events.turbosquid.com,REJECT
 DOMAIN-SUFFIX,events.whisk.com,REJECT
@@ -20284,6 +20290,7 @@ DOMAIN-SUFFIX,guiltlessbasketball.com,REJECT
 DOMAIN-SUFFIX,guisuaphical.work,REJECT
 DOMAIN-SUFFIX,guitaralliance.com,REJECT
 DOMAIN-SUFFIX,guitargrandmother.com,REJECT
+DOMAIN-SUFFIX,guiyimq.fun,REJECT
 DOMAIN-SUFFIX,gukne.koreastar.website,REJECT
 DOMAIN-SUFFIX,guktuti.ru,REJECT
 DOMAIN-SUFFIX,gulliblecamp.com,REJECT
@@ -28365,6 +28372,7 @@ DOMAIN-SUFFIX,n2s.co.kr,REJECT
 DOMAIN-SUFFIX,n339.asp-cc.com,REJECT
 DOMAIN-SUFFIX,n39hc7isp08t.com,REJECT
 DOMAIN-SUFFIX,n3x7.xyz,REJECT
+DOMAIN-SUFFIX,n5ta9.site,REJECT
 DOMAIN-SUFFIX,n69.com,REJECT
 DOMAIN-SUFFIX,n69adserv.com,REJECT
 DOMAIN-SUFFIX,n6mnw8jaldqe.com,REJECT
@@ -28621,6 +28629,7 @@ DOMAIN-SUFFIX,nehuha.ru,REJECT
 DOMAIN-SUFFIX,neictryziiogg.com,REJECT
 DOMAIN-SUFFIX,neighbetweenintrude.com,REJECT
 DOMAIN-SUFFIX,neighborlywatch.com,REJECT
+DOMAIN-SUFFIX,neighbouringmarvel.com,REJECT
 DOMAIN-SUFFIX,neighchurch.com,REJECT
 DOMAIN-SUFFIX,neirong.baidu.com,REJECT
 DOMAIN-SUFFIX,neitherentrailsrim.com,REJECT
@@ -38760,6 +38769,8 @@ DOMAIN-SUFFIX,stoassod.com,REJECT
 DOMAIN-SUFFIX,stockbook-ads.firebaseapp.com,REJECT
 DOMAIN-SUFFIX,stockbook-ads.firebaseio.com,REJECT
 DOMAIN-SUFFIX,stocker.bonnint.net,REJECT
+DOMAIN-SUFFIX,stocks-analytics-events.apple.com,REJECT
+DOMAIN-SUFFIX,stocks-analytics-events.news.apple-dns.net,REJECT
 DOMAIN-SUFFIX,stocksbsc.com,REJECT
 DOMAIN-SUFFIX,stoiximan.gr,REJECT
 DOMAIN-SUFFIX,stokehovemade.work,REJECT
@@ -39149,6 +39160,7 @@ DOMAIN-SUFFIX,sv-static-lottery.headlines.pw,REJECT
 DOMAIN-SUFFIX,sv-static1-lottery.headlines.pw,REJECT
 DOMAIN-SUFFIX,sv.sheego.de,REJECT
 DOMAIN-SUFFIX,sv88.com,REJECT
+DOMAIN-SUFFIX,svacdnjutk.com,REJECT
 DOMAIN-SUFFIX,svava.eu,REJECT
 DOMAIN-SUFFIX,svclqyctlijue.com,REJECT
 DOMAIN-SUFFIX,svedkan.com,REJECT
@@ -45212,6 +45224,7 @@ DOMAIN-SUFFIX,wtp101.com,REJECT
 DOMAIN-SUFFIX,wtraff.com,REJECT
 DOMAIN-SUFFIX,wts.one,REJECT
 DOMAIN-SUFFIX,wtstats.com,REJECT
+DOMAIN-SUFFIX,wtstats.ro,REJECT
 DOMAIN-SUFFIX,wtzgaa.com,REJECT
 DOMAIN-SUFFIX,wtztkpy.cn,REJECT
 DOMAIN-SUFFIX,wu65.com,REJECT
@@ -47578,6 +47591,7 @@ DOMAIN-SUFFIX,zizcy.com,REJECT
 DOMAIN-SUFFIX,zjgfq.com,REJECT
 DOMAIN-SUFFIX,zjhim.com,REJECT
 DOMAIN-SUFFIX,zjhoudao.com,REJECT
+DOMAIN-SUFFIX,zjjrlx4.com,REJECT
 DOMAIN-SUFFIX,zjksgl.com,REJECT
 DOMAIN-SUFFIX,zjkypuacaawx.com,REJECT
 DOMAIN-SUFFIX,zjlfqf.com,REJECT
