@@ -56891,6 +56891,7 @@ DOMAIN-SUFFIX,upcyclemaster.com,DIRECT
 DOMAIN-SUFFIX,upd.kaspersky.com,DIRECT
 DOMAIN-SUFFIX,updates-http.cdn-apple.com,DIRECT
 DOMAIN-SUFFIX,updates-http.cdn-apple.com.akadns.net,DIRECT
+DOMAIN-SUFFIX,updates.cdn-apple.com,DIRECT
 DOMAIN-SUFFIX,updba.com,DIRECT
 DOMAIN-SUFFIX,updrv.com,DIRECT
 DOMAIN-SUFFIX,upecp.com,DIRECT
