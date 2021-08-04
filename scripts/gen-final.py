@@ -34,6 +34,7 @@ def gen_file(name):
 
 file_names = [
     'black-ad-netease',
+    'black-ad',
     'black-netease',
     'white-ad-netease',
     'white-netease',

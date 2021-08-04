@@ -126,6 +126,7 @@ DOMAIN-SUFFIX,99btgc01.com,PROXY
 DOMAIN-SUFFIX,99cn.info,PROXY
 DOMAIN-SUFFIX,9bis.com,PROXY
 DOMAIN-SUFFIX,9bis.net,PROXY
+DOMAIN-SUFFIX,9cache.com,PROXY
 DOMAIN-SUFFIX,9gag.com,PROXY
 DOMAIN-SUFFIX,9news.com.au,PROXY
 DOMAIN-SUFFIX,a-normal-day.com,PROXY
@@ -560,6 +561,7 @@ DOMAIN-SUFFIX,bit.do,PROXY
 DOMAIN-SUFFIX,bit.ly,PROXY
 DOMAIN-SUFFIX,bitbay.net,PROXY
 DOMAIN-SUFFIX,bitc.bme.emory.edu,PROXY
+DOMAIN-SUFFIX,bitchute.com,PROXY
 DOMAIN-SUFFIX,bitcointalk.org,PROXY
 DOMAIN-SUFFIX,bitcoinworld.com,PROXY
 DOMAIN-SUFFIX,bitfinex.com,PROXY
@@ -1716,6 +1718,7 @@ DOMAIN-SUFFIX,fdc64.de,PROXY
 DOMAIN-SUFFIX,fdc64.org,PROXY
 DOMAIN-SUFFIX,fdc89.jp,PROXY
 DOMAIN-SUFFIX,feedburner.com,PROXY
+DOMAIN-SUFFIX,feeder.co,PROXY
 DOMAIN-SUFFIX,feedly.com,PROXY
 DOMAIN-SUFFIX,feeds.fileforum.com,PROXY
 DOMAIN-SUFFIX,feedx.net,PROXY
@@ -1724,6 +1727,7 @@ DOMAIN-SUFFIX,feer.com,PROXY
 DOMAIN-SUFFIX,feifeiss.com,PROXY
 DOMAIN-SUFFIX,feitian-california.org,PROXY
 DOMAIN-SUFFIX,feitianacademy.org,PROXY
+DOMAIN-SUFFIX,feixiaohao.com,PROXY
 DOMAIN-SUFFIX,feministteacher.com,PROXY
 DOMAIN-SUFFIX,fengzhenghu.com,PROXY
 DOMAIN-SUFFIX,fengzhenghu.net,PROXY
@@ -3648,6 +3652,7 @@ DOMAIN-SUFFIX,nflxso.net,PROXY
 DOMAIN-SUFFIX,nflxvideo.net,PROXY
 DOMAIN-SUFFIX,nga.mil,PROXY
 DOMAIN-SUFFIX,ngensis.com,PROXY
+DOMAIN-SUFFIX,ngodupdongchung.com,PROXY
 DOMAIN-SUFFIX,nhentai.net,PROXY
 DOMAIN-SUFFIX,nhi.gov.tw,PROXY
 DOMAIN-SUFFIX,nhk-ondemand.jp,PROXY
@@ -3772,6 +3777,7 @@ DOMAIN-SUFFIX,ocsp.int-x3.letsencrypt.org,PROXY
 DOMAIN-SUFFIX,october-review.org,PROXY
 DOMAIN-SUFFIX,oculus.com,PROXY
 DOMAIN-SUFFIX,oculuscdn.com,PROXY
+DOMAIN-SUFFIX,odysee.com,PROXY
 DOMAIN-SUFFIX,oex.com,PROXY
 DOMAIN-SUFFIX,offbeatchina.com,PROXY
 DOMAIN-SUFFIX,officeoftibet.com,PROXY
@@ -5083,6 +5089,7 @@ DOMAIN-SUFFIX,tpi.org.tw,PROXY
 DOMAIN-SUFFIX,tracfone.com,PROXY
 DOMAIN-SUFFIX,traffichaus.com,PROXY
 DOMAIN-SUFFIX,trans.wenweipo.com,PROXY
+DOMAIN-SUFFIX,translate.google,PROXY
 DOMAIN-SUFFIX,transparency.org,PROXY
 DOMAIN-SUFFIX,treemall.com.tw,PROXY
 DOMAIN-SUFFIX,trendsmap.com,PROXY
@@ -5622,6 +5629,7 @@ DOMAIN-SUFFIX,wheelockslatin.com,PROXY
 DOMAIN-SUFFIX,whereiswerner.com,PROXY
 DOMAIN-SUFFIX,wheretowatch.com,PROXY
 DOMAIN-SUFFIX,whippedass.com,PROXY
+DOMAIN-SUFFIX,whispersystems.org,PROXY
 DOMAIN-SUFFIX,whitebear.freebearblog.org,PROXY
 DOMAIN-SUFFIX,whodns.xyz,PROXY
 DOMAIN-SUFFIX,whoer.net,PROXY
